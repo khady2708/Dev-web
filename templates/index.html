@@ -6,7 +6,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ma premier page web</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
     </head>
 <body>
     <nav>
@@ -15,7 +15,7 @@
 
     <header>
         <h1 > <i>Histoire pour enfants</i></h1>
-        <img src="./ image1.png"   alt="mon image "/> 
+        <img src="{{url_for('static', filename='./img/image1.png')}}"   alt="mon image "/> 
         <p>
             À la recherche de contes ou d’histoires pour enfants ? Heureusement, la littérature jeunesse regorge d’un nombre important de classiques. Storyplay’r vous propose plusieurs contes merveilleux et livres audio pour des petits âgés de 3 à 15 ans. Des histoires de loups, de chevaliers, de dragons, de magie...Les histoires et les contes pour enfants sont indispensables pour stimuler l’imagination des petits. 
         </p>
@@ -38,10 +38,10 @@
             — Puisque tu ne veux pas entendre mes paroles, continua l'oiseau, demain les gens te prendront, te tueront et mangeront ta chair. Tu n'as pas d'intelligence : alors que je viens t'apprendre la sagesse, tu me repousses ! Bientôt, lorsque tu verras les gens venir pour te tuer, peut-être alors m'écouteras-tu. » La poule répondit : « Va-t'en, je n'ai que faire de toi. <br>
             — Très bien », dit l'oiseau en partant se percher sur un arbre. <br>
         </p>
-        <img src="Pasted image.png" alt="oiseau"/> <br>
+        <img src="../static/img/Pasted image.png" alt="oiseau"/> <br>
         <p> <strong> b)agneau de pâques</strong> </p>
             <p>Petit Agneau est un coquin. Il aime bien taquiner son copain Petit Poussin ! Mais Petit poussin a une très bonne idée pour surprendre le petit agneau…. Se fera-t-il avoir ? Une histoire tendre et amusante sur le thème de Pâques.</p>
-        <img src="image2.png" alt="agneau de pâques" /> <br>
+        <img src="../static/img/image2.png"" alt="agneau de pâques" /> <br>
 
         <video src="https://www.youtube.com/watch?v=ut2nzzr7Yxw" controls width="300"> une video à regarder</video>
         <section>
