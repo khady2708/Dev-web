@@ -1,0 +1,40 @@
+
+
+h1
+{
+    color: red;
+    text-align: center;
+}
+h2
+{
+    color: green;
+}
+
+
+body
+{
+    background-color: yellow;
+}
+
+#histoire
+{
+    width: 800px;
+    margin: auto;
+    background-color: rgb(250, 223, 243);
+    margin: auto;
+    align-content: center;
+    text-shadow: rgb(31, 12, 231);
+}
+
+img
+{
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    max-height: 600;
+    max-height: 500px;
+    align-content: center;
+    display: flex;
+
+}
+
